@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <script src="product.js"defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+       #output
+       {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+        #output>p{
+            font-size: 20px;
+            background-color: orange;
+            height: 30px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+            
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 class="text-center">Product Management</h1>
+    </header>
+    <main >
+        <div class="container w-50 mt-5 d-flex justify-content-center">
+            <input type="text" placeholder="Enter the product name">
+            <button class="ms-2" onclick="updatestop()">+ Add on Top</button>
+            <button class="ms-2" onclick="updatesbottom()">+ Add on Bottom</button>
+        </div>
+        <div class=" mt-5" id="output">
+            <p>Mobile</p>
+            <p>Computer</p>
+            <p>Laptop</p>
+        </div>
+
+    </main>
+</body>
+</html>
