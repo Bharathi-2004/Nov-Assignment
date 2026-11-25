@@ -1,0 +1,20 @@
+.card h6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(102, 212, 216);
+    border-radius: 100px;
+    margin-left: 22px;
+}
+
+.card{
+    background-color: bisque;
+    width: 150px;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid rgb(255, 185, 100);
+    border-radius: 10px;
+}
+.cardbox{
+    display: flex;
+    gap: 5px;
+}
