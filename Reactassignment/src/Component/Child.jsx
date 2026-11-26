@@ -10,8 +10,8 @@ function Child() {
   return (
     <>
     {students.map((student, index) => (
-        <Card key={index} info={student}>
-        </Card>
+        <Card key={index} info={student} id="displaycard"></Card>
+        
       ))}
     </>
   );

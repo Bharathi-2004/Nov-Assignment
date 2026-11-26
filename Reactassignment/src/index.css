@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .card h6{
     height: 100px;
     width: 100px;
@@ -14,7 +16,7 @@
     border: 1px solid rgb(255, 185, 100);
     border-radius: 10px;
 }
-.cardbox{
+#displaycard{
     display: flex;
     gap: 5px;
 }
